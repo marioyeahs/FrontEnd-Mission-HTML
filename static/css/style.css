@@ -1,4 +1,12 @@
+
 img{
     width: 180px;
     height: 180px;
+}
+
+footer {
+    justify-content: center;
+    padding: 5px;
+    background-color: brown;
+    color: #fff;
 }
