@@ -23,9 +23,19 @@
             <li>Figura merengue - $300.00</li>
         </ul>
     </section>
-    <section id="combinations">
-        <form action="">
-            <label for="falvors">Selecciona un sabor:</label>
+
+    <form action="./pedido.html" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name">
+        <label for="tel">Teléfono:</label>
+        <input type="number" name="tel" id="tel">
+        <label for="email">e-mail</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="description">Descripción</label>
+        <input type="text" name="description" id="description">
+        <br>
+        <label for="falvors">Selecciona un sabor:</label>
             <select name="flavors" id="flavors">
                 <option value="3leches">3 leches</option>
                 <option value="1000hojas">Mil hojas</option>
@@ -40,20 +50,20 @@
                 <option value="cheese">Cheesecake</option>
             </select>
             <br>
-            <label for="falvors">Selecciona una decoración:</label>
-            <select name="flavors" id="flavors">
+            <label for="falvor1">Selecciona una decoración:</label>
+            <select name="flavor1" id="flavor1">
                 <option value="candles">Velas</option>
                 <option value="fruit">Frutas</option>
                 <option value="figure">Figura merengue</option>
             </select>
-            <label for="falvors">Selecciona otra decoración:</label>
-            <select name="flavors" id="flavors">
+            <label for="falvor2">Selecciona otra decoración:</label>
+            <select name="flavor2" id="flavor2">
                 <option value="candles">Velas</option>
                 <option value="fruit">Frutas</option>
                 <option value="figure">Figura merengue</option>
             </select>
-        </form>
-        <form action=""></form>
-    </section>
+            <br>
+            <input type="submit" value="Ordenar">
+    </form>
 </body>
 </html>
